@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 
 import { Box } from './styles'
+import { CustomThemeProps } from '../../styles/theme'
 
 interface EditorProps {
   setTheme(theme: unknown): void
-  theme: unknown
+  theme: CustomThemeProps
 }
 
 const Editor: React.FC<EditorProps> = ({ setTheme, theme }) => {

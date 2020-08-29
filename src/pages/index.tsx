@@ -4,9 +4,11 @@ import { Container } from '../styles/pages/Home'
 import Terminal from '../components/Terminal'
 import Editor from '../components/Editor'
 
+import { CustomThemeProps } from '../styles/theme'
+
 interface HomeProps {
   setTheme(theme: unknown): void
-  theme: unknown
+  theme: CustomThemeProps
 }
 
 const Home: React.FC<HomeProps> = ({ setTheme, theme }) => {

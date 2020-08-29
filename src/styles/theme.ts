@@ -1,4 +1,28 @@
-const theme = {
+export interface CustomThemeProps {
+  terminal: {
+    name: string
+    black: string
+    red: string
+    green: string
+    yellow: string
+    blue: string
+    purple: string
+    cyan: string
+    white: string
+    brightBlack: string
+    brightRed: string
+    brightGreen: string
+    brightYellow: string
+    brightBlue: string
+    brightPurple: string
+    brightCyan: string
+    brightWhite: string
+    background: string
+    foreground: string
+  }
+}
+
+const theme: CustomThemeProps = {
   terminal: {
     name: 'Default Dark',
     black: '#000000',
