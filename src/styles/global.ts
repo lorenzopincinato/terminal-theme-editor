@@ -14,6 +14,6 @@ export default createGlobalStyle`
 
   @font-face {
     font-family: 'Cascadia Code';
-    src: url('/fonts/CascadiaMono.woff2');
+    src: url('${process.env.NEXT_PUBLIC_BASE_PATH}/fonts/CascadiaMono.woff2');
   }
 `
