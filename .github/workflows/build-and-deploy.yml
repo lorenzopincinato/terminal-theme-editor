@@ -24,7 +24,7 @@ jobs:
 
     - name: Install, build and export 🧶
       env:
-        NEXT_PUBLIC_BASE_PATH: /windows-terminal-theme-generator
+        NEXT_PUBLIC_BASE_PATH: /terminal-theme-editor
       run: |
         yarn
         yarn build

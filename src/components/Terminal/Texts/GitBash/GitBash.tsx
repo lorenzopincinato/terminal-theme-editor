@@ -8,7 +8,7 @@ const GitBash: React.FC = () => {
       <Line>
         <Green>guest@browser</Green>&nbsp;
         <Purple>MING64</Purple>&nbsp;
-        <Yellow>~/www/lorenzopincinato/windows-terminal-theme-generator</Yellow>
+        <Yellow>~/www/lorenzopincinato/terminal-theme-editor</Yellow>
         &nbsp;
         <Cyan>(master)</Cyan>
       </Line>
