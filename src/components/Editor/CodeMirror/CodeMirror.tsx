@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { UnControlled as CodeMirror } from 'react-codemirror2'
+import { Controlled as CodeMirror } from 'react-codemirror2'
 
 import 'codemirror/mode/javascript/javascript'
 import 'codemirror/lib/codemirror.css'
@@ -10,7 +10,7 @@ import 'codemirror/theme/material.css'
 const MyCodeMirror = (
   props: JSX.IntrinsicAttributes &
     JSX.IntrinsicClassAttributes<CodeMirror> &
-    Readonly<import('react-codemirror2').IUnControlledCodeMirror>
+    Readonly<import('react-codemirror2').IControlledCodeMirror>
 ) => {
   return <CodeMirror {...props} />
 }

@@ -32,7 +32,7 @@ const Editor: React.FC<EditorProps> = ({ setTheme, theme }) => {
           indentWithTabs: true,
           tabSize: 2
         }}
-        onChange={(editor, data, value) => {
+        onBeforeChange={(editor, data, value) => {
           setText(value)
 
           try {
@@ -43,6 +43,7 @@ const Editor: React.FC<EditorProps> = ({ setTheme, theme }) => {
             console.log('Invalid json')
           }
         }}
+        onChange={(editor, data, value) => {}}
       />
     </Box>
   )
